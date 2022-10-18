@@ -1,0 +1,53 @@
+body{
+    margin: 0 auto;
+}
+header.header{
+    display: flex;
+    align-items: center;
+    
+}
+header.header img{
+width: 150px;
+}
+section.top-page{
+    background: url('../images/vecteezy_wavy-gradient-dark-green-background_.jpg');
+    background-size: cover;
+    height: 80vh;
+}
+.big-title{
+    color: white;
+    font-size: 80px;
+    text-align: center;
+}
+.button{
+ border-radius: 20px;
+margin-left: 50%;
+font-size: larger;
+margin-bottom: 10px;
+
+}
+
+nav.nav{
+    display: flex;
+    list-style: none;
+    margin-left: 60%;
+    
+}
+nav.nav li{
+     color: white;
+     margin-left: 30px;
+}
+/* service */
+.services{
+    display: flex;
+    justify-content: space-between;
+    margin: 90px;
+}
+.delivery-icon{
+    font-size: 50px;
+    color: green;
+    
+}
+.item{
+    text-align: center;
+}
